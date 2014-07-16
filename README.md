@@ -9,8 +9,6 @@ The data selected for this project is about wearable computing. The data is rega
 
 The fruit of this project is to create an R script so as to process and compute all activity measurements from the original data set to produce a new, clean and tidy data set. The new data set is about average measurements regarding each voluneteer with each activity. The new data set is captured in an output file called "tidy_data.txt"
  
-## Data Source
-
 ## List of Files
 
 - 'README.md': This file.
