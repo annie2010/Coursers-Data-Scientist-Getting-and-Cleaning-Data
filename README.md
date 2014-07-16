@@ -12,6 +12,7 @@ The fruit of this project is to create an R script so as to process and compute 
 
 * Description, http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 * Dataset, https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+ * Check the README.txt file for further details about this dataset.
  
 ## List of Files
 
@@ -31,7 +32,7 @@ The fruit of this project is to create an R script so as to process and compute 
 
 * Input: download and unzip the dataset from 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
 * Compute: run script 'run_analysis.R'
-* Output: 'tidy_data.txt'
+* Output: 'tidy_data.txt', variables are described by 'CodeBook.md'
 * Dependencies: library 'data.table', 'reshape2'
 
 ## Algorithm in the script
