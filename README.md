@@ -22,7 +22,7 @@ The fruit of this project is to create an R script so as to process and compute 
 
 ## Description about the script
 
-- Merges the training and the test sets to create one data set.
+- Merges the train and the test sets to create one data set.
 - Extracts only the measurements on the mean and standard deviation for each measurement. 
 - Uses descriptive activity names to name the activities in the data set
 - Appropriately labels the data set with descriptive variable names. 
@@ -36,11 +36,12 @@ The fruit of this project is to create an R script so as to process and compute 
 * Dependencies: library 'data.table', 'reshape2'
 
 ## Algorithm in the script
+
 * Prep
  * Read labels for activities
  * Read labels for feature measurements and extract labels for mean and standard deviation in feature measurements 
 * Obtain data regarding features, activities and subject
- * Obtain training data regarding features, activities and subject
+ * Obtain train data regarding features, activities and subject
  * Obtain test data regarding features, activities and subject
 * Extract feature measurements on mean and stardard deviation for each measurement
  * Extract feature measurements on mean and stardard deviation for each measurement in train data
@@ -49,8 +50,8 @@ The fruit of this project is to create an R script so as to process and compute 
  * Use descriptive names for activity data in train data
  * Use descriptive names for activity data in test data
 * Combine Columns in each data set and merge train data with test data
- * Combine columns in training data set
- * Combine columns in testing data set
+ * Combine columns in train data set for features, activities and subjects
+ * Combine columns in testing data set for features, activities and subjects
  * Merge test and train data sets
 * Compute means for results
  * Melt data with ids and vars
