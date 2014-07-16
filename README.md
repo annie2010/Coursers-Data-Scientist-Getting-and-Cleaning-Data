@@ -30,9 +30,9 @@ The fruit of this project is to create an R script so as to process and compute 
 
 ## How to run the script
 
-* Input: download and unzip the dataset from 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
+* Input: download the dataset from 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip' and unzip it
 * Compute: run script 'run_analysis.R'
-* Output: 'tidy_data.txt', variables are described by 'CodeBook.md'
+* Output: 'tidy_data.txt', variables are described in 'CodeBook.md'
 * Dependencies: library 'data.table', 'reshape2'
 
 ## Algorithm in the script
