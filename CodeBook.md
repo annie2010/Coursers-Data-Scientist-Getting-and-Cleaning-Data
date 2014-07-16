@@ -99,6 +99,13 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
  - "fBodyBodyGyroJerkMag-mean()" 
  - "fBodyBodyGyroJerkMag-std()" 
  - "fBodyBodyGyroJerkMag-meanFreq()"
+ - "angle(tBodyAccMean,gravity)" 
+ - "angle(tBodyAccJerkMean),gravityMean)" 
+ - "angle(tBodyGyroMean,gravityMean)" 
+ - "angle(tBodyGyroJerkMean,gravityMean)"
+ - "angle(X,gravityMean)" 
+ - "angle(Y,gravityMean)" 
+ - "angle(Z,gravityMean)"
 
 ## Feature Selection 
 
