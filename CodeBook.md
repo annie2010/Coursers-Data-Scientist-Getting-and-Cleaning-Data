@@ -8,7 +8,7 @@ The data file “tidy_data.txt” contains the analyzed results about activity t
 
 ### 1.2 Background
 
-The measurements are about movements for 30 subjects (i.e. volunteers) with 6 activities. These movements are tracked as features through accelerometers and geocodes from mobile devices. Features raw data and computed data (such as mean and std) are captured in the original data source. In summary, measurements about subjects, activities and features are available from the original data source (see README.md for more information).
+The measurements are about movements for 30 subjects (i.e. volunteers) with 6 activities. These movements are tracked as features through accelerometers and gyroscopes in mobile devices. Features raw data and computed data (such as mean and std) are captured in the original data source. In summary, measurements about subjects, activities and features are available from the original data source (see README.md for more information).
 
 ### 1.3 Experiments and Original Dataset
 
