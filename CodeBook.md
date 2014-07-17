@@ -1,30 +1,30 @@
 # CodeBook
 
-## Intro
+## 1. Intro
 
-### Overview
+### 1.1 Overview
 
 The data file “tidy_data.txt” contains the analyzed results about activity tracking through wearable mobile devices. The analyzed results are computed averages for movements about 30 subjects with 6 activities. The movements include means and standard deviations about measurements from all features in the original data source for wearable computing.
 
-### Background
+### 1.2 Background
 
 The measurements are about movements for 30 subjects (i.e. volunteers) with 6 activities. These movements are tracked as features through accelerometers and geocodes from mobile devices. Features raw data and computed data (such as mean and std) are captured in the original data source. In summary, measurements about subjects, activities and features are available from the original data source (see README.md for more information).
 
-### Original Dataset
+### 1.3 Experiments and Original Dataset
 
 The original data source are about experiments that have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See section Feature Selection for more details. 
 
-## New Dataset
+## 2. New Dataset
 
-### The File
+### 2.1 The File
 
 The data file “tidy_data.txt” contains 1 title row, and 180 data rows about movements for 30 subjects with 6 activities. 
 
 This file begins with a title row to ease reading. The title row containts 3  parts: subeject id, activity name and features. Subsequently, each data row contains a subject id, an activity name and a list measured features. 
 
-### Variable Definition
+### 2.2 Variable Definition
 
 - "subject"
  - A group of 30 volunteers. They are identified with numbers from 1-30. 
@@ -129,7 +129,7 @@ This file begins with a title row to ease reading. The title row containts 3  pa
   - "angle(Y,gravityMean)" 
   - "angle(Z,gravityMean)"
 
-### Feature Selection 
+### 2.3 Feature Selection 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
