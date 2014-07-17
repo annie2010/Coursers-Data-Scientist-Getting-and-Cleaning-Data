@@ -32,14 +32,14 @@ This file begins with a title row to ease reading. The title row containts 3  pa
 - "Activity_Label"
  - Each person performed six activities. Each activity is labeled with a name.
  - The possible values for this variable are:
-  - 1 WALKING
-  - 2 WALKING_UPSTAIRS
-  - 3 WALKING_DOWNSTAIRS
-  - 4 SITTING
-  - 5 STANDING
-  - 6 LAYING
+  - 1) WALKING
+  - 2) WALKING_UPSTAIRS
+  - 3) WALKING_DOWNSTAIRS
+  - 4) SITTING
+  - 5) STANDING
+  - 6) LAYING
 - "AVERAGES for Mean and Standard Deviation regarding Measured Features"
- - The following is the list of measurements to be analized with average computation:
+ - The following is the list of measurements to be analyzed with average computation:
  - (The values under each column are the averages for these measurements)
  - (Read the next section for details about each measurement)
   - "tBodyAcc-mean()-X" 
